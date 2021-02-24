@@ -1,1 +1,109 @@
+html {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(../Wildlife/img/Rectangle.png);
+    height: 780px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.container {
+    margin: 0px auto;
+    padding: 0px 120px;
+    max-width: 1200px;
+}
+.header-logo {
+    height: 60px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+}
+h1 {
+    margin: 0;
+    width: 155px;
+    color: white;
+    margin-left: 15px;
+    font-weight: normal;
+}
+.nav-front {
+    margin-top: 5px;
+    margin-left: 470px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 44px;
+}
+.l1::before {
+    content: "\e986";
+    font-family: "icomoon";
+    color: white;
+}
+li+li {
+    padding-left: 15px;
+}
+li+li+li {
+    padding-left: 30px;
+}
+li+li+li+li {
+    padding-left: 45px;
+    width: 110px;
+}
+.nav-front a {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 0px 16px;
+    transition: all 0.3s;
+}
+.nav-front a:hover {
+    border-color: #cd6326;
+}
+.header-survival {
+    margin: 120px 1046px 240px 0px;
+    width: 274px;
+    height: 340px;
+}
+h2 {
+    line-height: 72px;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #cd6326;
+    font-weight: normal;
+}
+p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27px;
+}
+.header-survival-btn {
+    margin-top: 60px;
+    width: 160px;
+    height: 60px;
+    background-color: #cd6326;
+    color: white;
+    border-radius: 4px;
+}
+.p2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
 
