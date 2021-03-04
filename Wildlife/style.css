@@ -1,0 +1,311 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(../Wildlife/img/Rectangle.png);
+    height: 780px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-color: #CCCCCC;
+}
+.container {
+    margin: 0px auto;
+    padding: 0px 120px;
+    max-width: 1200px;
+}
+.header-logo,
+.footer-logo {
+    height: 60px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+}
+h1 {
+    margin: 0;
+    width: 155px;
+    color: white;
+    margin-left: 15px;
+    font-weight: normal;
+}
+.nav-front {
+    margin-top: 5px;
+    margin-left: 465px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 44px;
+}
+.l1::before {
+    content: "\e986";
+    font-family: "icomoon";
+    color: white;
+}
+.l1-1 {
+    margin-left: 5px;
+}
+li+li {
+    padding-left: 15px;
+}
+li+li+li {
+    padding-left: 30px;
+}
+li+li+li+li {
+    padding-left: 45px;
+    width: 110px;
+}
+.nav-front a,
+.ul2 a {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 0px 16px;
+    transition: all 0.3s;
+}
+.nav-front a:hover,
+.ul2 a:hover {
+    border-color: #cd6326;
+}
+.header-survival {
+    margin: 120px 1046px 240px 0px;
+    width: 274px;
+    height: 340px;
+}
+h2 {
+    line-height: 72px;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #cd6326;
+    font-weight: normal;
+    letter-spacing: 1.6px;
+}
+.p1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27px;
+    margin-top: 50px;
+}
+.header-survival-btn {
+    margin-top: 30px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    background-color: #cd6326;
+    color: white;
+    border-radius: 4px;
+}
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    line-height: 15px;
+}
+.header-survival-btn:hover {
+    border: 3px solid #cd6326;
+	background: rgba(0,0,0,0);
+}
+.info {
+    background-color: #CCCCCC;
+    height: 1348px;
+}
+.h2 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: normal;
+    padding: 100px 0px 0px 0px;
+    margin: 0px;
+    letter-spacing: 0.5px;
+}
+h3 {
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.slider-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1020px;
+}
+.slider-content-box-one,
+.slider-content-box-two,
+.slider-content-box-three {
+    height: 360px;
+    width: 300px;
+}
+.slider-content-box-one {
+    background-image: url(../Wildlife/img/picOne.jpg);
+}
+.slider-content-box-two {
+    background-image: url(../Wildlife/img/picTwo.jpg);
+}
+.slider-content-box-three {
+    background-image: url(../Wildlife/img/picThree.jpg);
+}
+.slider-content-box-one:hover,
+.slider-content-box-two:hover,
+.slider-content-box-three:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+h4 {
+    color: #F7F7F7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin: 245px 0px 0px 0px;
+}
+h5 {
+    color: #F7F7F7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: normal;
+    margin: 10px 0px 0px 0px;
+}
+.slider-left,
+.slider-right {
+    font-size: 40px;
+    margin: auto 0px;
+}
+.h3 {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    line-height: 40.5px;
+    text-align: center;
+    font-weight: normal;
+    margin: 240px 0px 0px 0px;
+}
+.input-form {
+    height: 60px;
+    width: 660px;
+    display: flex;
+    margin: 60px auto 0px;
+}
+input {
+    width: 540px;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+    padding: 0px 15px;
+    background-color: #CCCCCC;
+    border: #666666 solid 1px;
+    border-right: none;
+}
+input:focus {
+    outline: none;
+}
+.input-btn {
+    width: 120px;
+    color: #F7F7F7;
+    background-color: #cd6326;
+    font-size: 23px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #CD6326;
+    text-align: center;
+    padding: 15px 0px;
+}
+.input-btn:hover {
+    border: 3px solid #cd6326;
+	background: #fc9255;
+}
+footer {
+    background-image: url(../Wildlife/img/footer.jpg);
+    height: 360px;
+}
+.footer-logo {
+    padding-top: 150px;
+}
+.nav-footer {
+    margin-left: 105px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 60px;
+}
+.af2 {
+    margin-left: 30px;
+}
+.af3 {
+    margin-left: 18px;
+}
+.li4 {
+    padding: 0;
+}
+.af4::before {
+    content: "\ea90";
+    font-family: "icomoon";
+    color: white;
+    padding: 0;
+}
+.li5 {
+    padding: 0;
+}
+.af5::before {
+    content: "\ea92";
+    font-family: "icomoon";
+    color: white;
+    margin-left: 40px;  
+}
+.li6 {
+    padding: 0;
+}
+.af6::before {
+    content: "\e900";
+    font-family: "icomoon";
+    color: white;
+    margin-left: 40px;
+}
+.li7 {
+    padding: 0;
+    width: 40px;
+}
+.af7::before {
+    content: "\ea95";
+    font-family: "icomoon";
+    color: white;
+    margin-left: 40px;
+}
+ul+ul {
+    margin-left: 107px;
+}
+.ul3 a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
